@@ -1,5 +1,5 @@
-function checkio(data) {
-    return 1;
+function mark_patterns(pattern, image) {
+    return image
 }
 
 //

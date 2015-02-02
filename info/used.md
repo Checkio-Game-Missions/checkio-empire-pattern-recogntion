@@ -1,3 +1,4 @@
 **How it is used:**
 
-It's useful
+As we can see in the first paragraph, this task is simple monochromatic pattern recognition.
+You can take a monochrome image and find various subimages inside such as the alien spaceships in the Galaxy Game ;-)
