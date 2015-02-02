@@ -1,4 +1,4 @@
-checkio-task-matrix-pattern
+pattern-recognition
 ===========================
 
-Checkio Task "Matrix pattern"
+Crystal Farm 1.5 "Pattern Recognition"
