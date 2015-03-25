@@ -12,9 +12,9 @@ cover = """def cover(f, data):
 
 class Referee(RefereeBase):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "mark_patterns"
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
+    DEFAULT_FUNCTION_NAME = "mark_patterns"
     ENV_COVERCODE = {
         "python_2": covercodes.py_unwrap_args,
         "python_3": covercodes.py_unwrap_args,
