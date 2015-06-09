@@ -8,4 +8,19 @@ The result will be the image matrix with the located patterns marked.
 
 The patterns in the image matrix will never cross because the value of each number in the patter is immediately changed when marked.
 
-![pattern](pattern.svg)
+```
+Pattern     Image
+
+  1 0       0 1 0 1 0
+  1 1       0 1 1 0 0
+            1 0 1 1 0
+            1 1 0 1 1
+            0 1 1 0 0
+
+   1st         2nd         3rd
+0 3 2 1 0   0 3 2 1 0   0 3 2 1 0
+0 3 3 0 0   0 3 3 0 0   0 3 3 0 0
+1 0 1 1 0   3 2 1 1 0   3 2 1 3 2
+1 1 0 1 1   3 3 0 1 1   3 3 0 3 3
+0 1 1 0 0   0 1 1 0 0   0 1 1 0 0
+```
