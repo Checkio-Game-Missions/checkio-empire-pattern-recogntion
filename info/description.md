@@ -6,7 +6,7 @@ and marking patterns when one is located in the image.
 To mark a located pattern, the program must change 1 to 3 and 0 to 2. 
 The result will be the image matrix with the located patterns marked.
 
-The patterns in the image matrix will never cross because the value of each number in the patter is immediately changed when marked.
+The patterns in the image matrix will never cross because the value of each number in the pattern is immediately changed when marked.
 
 ```
 Pattern     Image
